@@ -149,5 +149,31 @@ int main()
     //     cout<<endl;
     // }
 
+    // pattern 10: *
+    //            * *
+    //           *   *
+    //          *     *
+    //         *       *
+    //        ***********
+
+    // code :
+    // for(int i=0;i<6;i++)
+    // {
+    //     if(i==5)
+    //     {
+    //         for(int l=0;l<10;l++)
+    //         cout<<"*";
+    //     }
+    //     for(int k=0;k<6-i-1;k++)
+    //         cout<<" ";
+    //     for(int j=0;j<=10;j++)
+    //     {
+    //         if(j==0||j==2*i)
+    //         cout<<"*";
+    //         else
+    //         cout<<" ";
+    //     }
+    //     cout<<endl;
+    // }
     return 0;
 }
